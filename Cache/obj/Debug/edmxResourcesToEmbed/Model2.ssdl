@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="productsModel1.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="items">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Ean" Type="varchar" MaxLength="1" />
+    <Property Name="CategoryId" Type="int" />
+    <Property Name="BrandId" Type="int" />
+    <Property Name="BrandName" Type="varchar" MaxLength="1" />
+    <Property Name="Name" Type="varchar" MaxLength="1" />
+    <Property Name="Description" Type="varchar" MaxLength="1" />
+    <Property Name="Price" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="InStock" Type="bit" />
+    <Property Name="ExpectedRestock" Type="date" />
+  </EntityType>
+  <EntityType Name="products">
+    <Key>
+      <PropertyRef Name="productid" />
+    </Key>
+    <Property Name="productid" Type="int" Nullable="false" />
+    <Property Name="productname" Type="varchar" MaxLength="255" />
+    <Property Name="productdescription" Type="varchar" MaxLength="255" />
+    <Property Name="categoryid" Type="int" />
+    <Property Name="categoryname" Type="varchar" MaxLength="255" />
+    <Property Name="brandid" Type="int" />
+    <Property Name="minprice" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="maxprice" Type="decimal" Precision="18" Scale="0" />
+  </EntityType>
+  <EntityContainer Name="productsModel1StoreContainer">
+    <EntitySet Name="items" EntityType="Self.items" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="products" EntityType="Self.products" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

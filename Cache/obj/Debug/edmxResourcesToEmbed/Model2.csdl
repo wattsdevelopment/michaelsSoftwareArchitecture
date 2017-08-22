@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="productsModel1" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="products">
+    <Key>
+      <PropertyRef Name="productid" />
+    </Key>
+    <Property Name="productid" Type="Int32" Nullable="false" />
+    <Property Name="productname" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="productdescription" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="categoryid" Type="Int32" />
+    <Property Name="categoryname" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="brandid" Type="Int32" />
+    <Property Name="minprice" Type="Boolean" />
+    <Property Name="maxprice" Type="Boolean" />
+  </EntityType>
+  <EntityContainer Name="productsEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="products" EntityType="Self.products" />
+    <EntitySet Name="items" EntityType="productsModel1.items" />
+  </EntityContainer>
+  <EntityType Name="items">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Ean" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="CategoryId" Type="Int32" />
+    <Property Name="BrandId" Type="Int32" />
+    <Property Name="BrandName" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="Name" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="Description" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="Price" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="InStock" Type="Boolean" />
+    <Property Name="ExpectedRestock" Type="DateTime" Precision="0" />
+  </EntityType>
+</Schema>

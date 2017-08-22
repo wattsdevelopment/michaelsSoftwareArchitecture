@@ -1,0 +1,67 @@
+C:\Users\mawat\Desktop\sa\SoftwareArchitecture\ThAmCoStore\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\mawat\Desktop\sa\SoftwareArchitecture\ThAmCoStore\ConsoleApplication1\obj\Debug\cache.csprojResolveAssemblyReference.cache
+C:\Users\mawat\Desktop\sa\SoftwareArchitecture\ThAmCoStore\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\mawat\Desktop\sa\SoftwareArchitecture\ThAmCoStore\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\mawat\Desktop\sa\SoftwareArchitecture\ThAmCoStore\ConsoleApplication1\bin\Debug\BazzasBazaarExternalServiceProxyWCF.dll
+C:\Users\mawat\Desktop\sa\SoftwareArchitecture\ThAmCoStore\ConsoleApplication1\bin\Debug\DodgeyDealersExternalServiceProxy.dll
+C:\Users\mawat\Desktop\sa\SoftwareArchitecture\ThAmCoStore\ConsoleApplication1\bin\Debug\EntityFramework.dll
+C:\Users\mawat\Desktop\sa\SoftwareArchitecture\ThAmCoStore\ConsoleApplication1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\mawat\Desktop\sa\SoftwareArchitecture\ThAmCoStore\ConsoleApplication1\bin\Debug\ICA6.dll
+C:\Users\mawat\Desktop\sa\SoftwareArchitecture\ThAmCoStore\ConsoleApplication1\bin\Debug\KhansKwikimartExternalServiceProxy.dll
+C:\Users\mawat\Desktop\sa\SoftwareArchitecture\ThAmCoStore\ConsoleApplication1\bin\Debug\EntityFramework.xml
+C:\Users\mawat\Desktop\sa\SoftwareArchitecture\ThAmCoStore\ConsoleApplication1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\mawat\Desktop\sa\SoftwareArchitecture\ThAmCoStore\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Users\mawat\Desktop\sa\SoftwareArchitecture\ThAmCoStore\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+C:\Users\mawat\Desktop\sa\SoftwareArchitecture\ThAmCoStore\ConsoleApplication1\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\mawat\Desktop\uni\Software Architecture\ICA\sa\SoftwareArchitecture\ThAmCoStore\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\mawat\Desktop\uni\Software Architecture\ICA\sa\SoftwareArchitecture\ThAmCoStore\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Users\mawat\Desktop\uni\Software Architecture\ICA\sa\SoftwareArchitecture\ThAmCoStore\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+C:\Users\mawat\Desktop\uni\Software Architecture\ICA\sa\SoftwareArchitecture\ThAmCoStore\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\mawat\Desktop\uni\Software Architecture\ICA\sa\SoftwareArchitecture\ThAmCoStore\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\mawat\Desktop\uni\Software Architecture\ICA\sa\SoftwareArchitecture\ThAmCoStore\ConsoleApplication1\bin\Debug\BazzasBazaarExternalServiceProxyWCF.dll
+C:\Users\mawat\Desktop\uni\Software Architecture\ICA\sa\SoftwareArchitecture\ThAmCoStore\ConsoleApplication1\bin\Debug\DodgeyDealersExternalServiceProxy.dll
+C:\Users\mawat\Desktop\uni\Software Architecture\ICA\sa\SoftwareArchitecture\ThAmCoStore\ConsoleApplication1\bin\Debug\EntityFramework.dll
+C:\Users\mawat\Desktop\uni\Software Architecture\ICA\sa\SoftwareArchitecture\ThAmCoStore\ConsoleApplication1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\mawat\Desktop\uni\Software Architecture\ICA\sa\SoftwareArchitecture\ThAmCoStore\ConsoleApplication1\bin\Debug\ICA6.dll
+C:\Users\mawat\Desktop\uni\Software Architecture\ICA\sa\SoftwareArchitecture\ThAmCoStore\ConsoleApplication1\bin\Debug\KhansKwikimartExternalServiceProxy.dll
+C:\Users\mawat\Desktop\uni\Software Architecture\ICA\sa\SoftwareArchitecture\ThAmCoStore\ConsoleApplication1\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\mawat\Desktop\uni\Software Architecture\ICA\sa\SoftwareArchitecture\ThAmCoStore\ConsoleApplication1\bin\Debug\EntityFramework.xml
+C:\Users\mawat\Desktop\uni\Software Architecture\ICA\sa\SoftwareArchitecture\ThAmCoStore\ConsoleApplication1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\mawat\Desktop\uni\Software Architecture\ICA\sa\SoftwareArchitecture\ThAmCoStore\ConsoleApplication1\obj\Debug\cache.csprojResolveAssemblyReference.cache
+C:\Users\mawat\Desktop\SoftwareArchitecture\ThAmCoStore\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\mawat\Desktop\SoftwareArchitecture\ThAmCoStore\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Users\mawat\Desktop\SoftwareArchitecture\ThAmCoStore\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+C:\Users\mawat\Desktop\SoftwareArchitecture\ThAmCoStore\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\mawat\Desktop\SoftwareArchitecture\ThAmCoStore\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\mawat\Desktop\SoftwareArchitecture\ThAmCoStore\ConsoleApplication1\bin\Debug\EntityFramework.dll
+C:\Users\mawat\Desktop\SoftwareArchitecture\ThAmCoStore\ConsoleApplication1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\mawat\Desktop\SoftwareArchitecture\ThAmCoStore\ConsoleApplication1\bin\Debug\ICA6.dll
+C:\Users\mawat\Desktop\SoftwareArchitecture\ThAmCoStore\ConsoleApplication1\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\mawat\Desktop\SoftwareArchitecture\ThAmCoStore\ConsoleApplication1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\mawat\Desktop\SoftwareArchitecture\ThAmCoStore\ConsoleApplication1\bin\Debug\EntityFramework.xml
+C:\Users\mawat\Desktop\SoftwareArchitecture\ThAmCoStore\ConsoleApplication1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\mawat\Desktop\SoftwareArchitecture\ThAmCoStore\ConsoleApplication1\bin\Debug\ExternalServiceProxy.pdb
+C:\Users\mawat\Desktop\SoftwareArchitecture\ThAmCoStore\ConsoleApplication1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\mawat\Desktop\SoftwareArchitecture\ThAmCoStore\ConsoleApplication1\obj\Debug\cache.csprojResolveAssemblyReference.cache
+C:\Users\mawat\Desktop\SoftwareArchitecture\ThAmCoStore\ConsoleApplication1\bin\Debug\BazzasBazaarExternalServiceProxyWCF.pdb
+C:\Users\mawat\Desktop\SoftwareArchitecture\ThAmCoStore\ConsoleApplication1\bin\Debug\DodgeyDealersExternalServiceProxy.pdb
+C:\Users\mawat\Desktop\SoftwareArchitecture\ThAmCoStore\ConsoleApplication1\bin\Debug\KhansKwikimartExternalServiceProxy.pdb
+C:\Users\mawat\Desktop\uni\Software Architecture\ICA\final\TeamESoftwareArchitecture\Source\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\mawat\Desktop\uni\Software Architecture\ICA\final\TeamESoftwareArchitecture\Source\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Users\mawat\Desktop\uni\Software Architecture\ICA\final\TeamESoftwareArchitecture\Source\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+C:\Users\mawat\Desktop\uni\Software Architecture\ICA\final\TeamESoftwareArchitecture\Source\Cache\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\mawat\Desktop\uni\Software Architecture\ICA\final\TeamESoftwareArchitecture\Source\Cache\obj\Debug\ConsoleApplication1.exe
+C:\Users\mawat\Desktop\uni\Software Architecture\ICA\final\TeamESoftwareArchitecture\Source\Cache\obj\Debug\ConsoleApplication1.pdb
+C:\Users\mawat\Desktop\uni\Software Architecture\ICA\final\TeamESoftwareArchitecture\Source\Cache\bin\Debug\ConsoleApplication1.exe
+C:\Users\mawat\Desktop\uni\Software Architecture\ICA\final\TeamESoftwareArchitecture\Source\Cache\bin\Debug\ConsoleApplication1.pdb
+C:\Users\mawat\Desktop\uni\Software Architecture\ICA\final\TeamESoftwareArchitecture\Source\Cache\bin\Debug\ICA6.dll
+C:\Users\mawat\Desktop\uni\Software Architecture\ICA\final\TeamESoftwareArchitecture\Source\Cache\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\mawat\Desktop\uni\Software Architecture\ICA\final\TeamESoftwareArchitecture\Source\Cache\bin\Debug\Newtonsoft.Json.dll
+C:\Users\mawat\Desktop\uni\Software Architecture\ICA\final\TeamESoftwareArchitecture\Source\Cache\bin\Debug\BazzasBazaarExternalServiceProxyWCF.pdb
+C:\Users\mawat\Desktop\uni\Software Architecture\ICA\final\TeamESoftwareArchitecture\Source\Cache\bin\Debug\DodgeyDealersExternalServiceProxy.pdb
+C:\Users\mawat\Desktop\uni\Software Architecture\ICA\final\TeamESoftwareArchitecture\Source\Cache\bin\Debug\EntityFramework.xml
+C:\Users\mawat\Desktop\uni\Software Architecture\ICA\final\TeamESoftwareArchitecture\Source\Cache\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\mawat\Desktop\uni\Software Architecture\ICA\final\TeamESoftwareArchitecture\Source\Cache\bin\Debug\ExternalServiceProxy.pdb
+C:\Users\mawat\Desktop\uni\Software Architecture\ICA\final\TeamESoftwareArchitecture\Source\Cache\bin\Debug\KhansKwikimartExternalServiceProxy.pdb
+C:\Users\mawat\Desktop\uni\Software Architecture\ICA\final\TeamESoftwareArchitecture\Source\Cache\bin\Debug\Newtonsoft.Json.xml
+C:\Users\mawat\Desktop\uni\Software Architecture\ICA\final\TeamESoftwareArchitecture\Source\Cache\obj\Debug\cache.csprojResolveAssemblyReference.cache

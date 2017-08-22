@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="productsModel2.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="items">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" />
+          <Property Name="Ean" Type="varchar" MaxLength="1" />
+          <Property Name="CategoryId" Type="int" />
+          <Property Name="BrandId" Type="int" />
+          <Property Name="BrandName" Type="varchar" MaxLength="1" />
+          <Property Name="Name" Type="varchar" MaxLength="1" />
+          <Property Name="Description" Type="varchar" MaxLength="1" />
+          <Property Name="Price" Type="decimal" Precision="18" Scale="0" />
+          <Property Name="InStock" Type="bit" />
+          <Property Name="ExpectedRestock" Type="date" />
+        </EntityType>
+        <EntityType Name="products">
+          <Key>
+            <PropertyRef Name="productid" />
+          </Key>
+          <Property Name="productid" Type="int" Nullable="false" />
+          <Property Name="productname" Type="varchar" MaxLength="255" />
+          <Property Name="productdescription" Type="varchar" MaxLength="255" />
+          <Property Name="categoryid" Type="int" />
+          <Property Name="categoryname" Type="varchar" MaxLength="255" />
+          <Property Name="brandid" Type="int" />
+          <Property Name="minprice" Type="decimal" Precision="18" Scale="0" />
+          <Property Name="maxprice" Type="decimal" Precision="18" Scale="0" />
+        </EntityType>
+        <EntityType Name="wrappings">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" />
+          <Property Name="typeid" Type="int" />
+          <Property Name="typename" Type="varchar" MaxLength="255" />
+          <Property Name="rangeid" Type="int" />
+          <Property Name="rangename" Type="varchar" MaxLength="255" />
+          <Property Name="price" Type="decimal" Precision="18" Scale="0" />
+          <Property Name="size" Type="decimal" Precision="18" Scale="0" />
+        </EntityType>
+        <EntityContainer Name="productsModel2StoreContainer">
+          <EntitySet Name="items" EntityType="Self.items" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="products" EntityType="Self.products" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="wrappings" EntityType="Self.wrappings" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="productsModel2" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="items">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" />
+          <Property Name="Ean" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+          <Property Name="CategoryId" Type="Int32" />
+          <Property Name="BrandId" Type="Int32" />
+          <Property Name="BrandName" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+          <Property Name="Name" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+          <Property Name="Description" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+          <Property Name="Price" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="InStock" Type="Boolean" />
+          <Property Name="ExpectedRestock" Type="DateTime" Precision="0" />
+        </EntityType>
+        <EntityType Name="products">
+          <Key>
+            <PropertyRef Name="productid" />
+          </Key>
+          <Property Name="productid" Type="Int32" Nullable="false" />
+          <Property Name="productname" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="productdescription" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="categoryid" Type="Int32" />
+          <Property Name="categoryname" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="brandid" Type="Int32" />
+          <Property Name="minprice" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="maxprice" Type="Decimal" Precision="18" Scale="0" />
+        </EntityType>
+        <EntityContainer Name="productsEntities2" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="items" EntityType="Self.items" />
+          <EntitySet Name="products" EntityType="Self.products" />
+          <EntitySet Name="wrappings" EntityType="productsModel2.wrappings" />
+        </EntityContainer>
+        <EntityType Name="wrappings">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" />
+          <Property Name="typeid" Type="Int32" />
+          <Property Name="typename" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="rangeid" Type="Int32" />
+          <Property Name="rangename" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="price" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="size" Type="Decimal" Precision="18" Scale="0" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="productsModel2StoreContainer" CdmEntityContainer="productsEntities2">
+          <EntitySetMapping Name="items">
+            <EntityTypeMapping TypeName="productsModel2.items">
+              <MappingFragment StoreEntitySet="items">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Ean" ColumnName="Ean" />
+                <ScalarProperty Name="CategoryId" ColumnName="CategoryId" />
+                <ScalarProperty Name="BrandId" ColumnName="BrandId" />
+                <ScalarProperty Name="BrandName" ColumnName="BrandName" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="Price" ColumnName="Price" />
+                <ScalarProperty Name="InStock" ColumnName="InStock" />
+                <ScalarProperty Name="ExpectedRestock" ColumnName="ExpectedRestock" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="products">
+            <EntityTypeMapping TypeName="productsModel2.products">
+              <MappingFragment StoreEntitySet="products">
+                <ScalarProperty Name="productid" ColumnName="productid" />
+                <ScalarProperty Name="productname" ColumnName="productname" />
+                <ScalarProperty Name="productdescription" ColumnName="productdescription" />
+                <ScalarProperty Name="categoryid" ColumnName="categoryid" />
+                <ScalarProperty Name="categoryname" ColumnName="categoryname" />
+                <ScalarProperty Name="brandid" ColumnName="brandid" />
+                <ScalarProperty Name="minprice" ColumnName="minprice" />
+                <ScalarProperty Name="maxprice" ColumnName="maxprice" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="wrappings">
+            <EntityTypeMapping TypeName="productsModel2.wrappings">
+              <MappingFragment StoreEntitySet="wrappings">
+                <ScalarProperty Name="size" ColumnName="size" />
+                <ScalarProperty Name="price" ColumnName="price" />
+                <ScalarProperty Name="rangename" ColumnName="rangename" />
+                <ScalarProperty Name="rangeid" ColumnName="rangeid" />
+                <ScalarProperty Name="typename" ColumnName="typename" />
+                <ScalarProperty Name="typeid" ColumnName="typeid" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
